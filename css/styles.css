@@ -1,0 +1,42 @@
+body{
+  font-family: 'Lato', sans-serif;
+  background-color:#E0C3B2;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight:100;
+}
+
+/* Header */
+.header{
+  position:absolute;
+  bottom:0;
+  left:0;
+  padding:3em 4em;
+}
+.main-header{
+  font-size:72px;
+  margin:0 0 .3em -.15em;
+}
+.sub-header{
+  font-size:24px;
+  margin:0 0 1.5em;
+  letter-spacing:.3em;
+}
+
+/* Portfolio */
+.portfolio{
+  position:absolute;
+  right:0;
+  top:25%;
+  width:390px;
+}
+.port-item{
+  width:130px;
+  height:250px;
+  float:right;
+  background-color:#4C9A95;
+  position:;
+}
+.port-item:nth-child(2n){
+  background-color:#006B82;
+}
